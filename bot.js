@@ -5,7 +5,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
       let ReBeL = ["كل خرا يا دراميكس","يلا سوي ريسيت للحساب","Fuck You Dramex","Dramex = Noob ez","Speed again reset my credits L ez Dramex"]
       setInterval(() => {
-      client.channels.get("515291977399402497").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+      client.channels.get("515162185073164319").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
       },4000);
 });
 
